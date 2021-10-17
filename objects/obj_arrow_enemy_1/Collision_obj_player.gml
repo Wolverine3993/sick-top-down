@@ -34,6 +34,7 @@ if(global.Room_state == 0)
 	/// @DnDParent : 510F1215
 	/// @DnDArgument : "xpos" "e"
 	/// @DnDArgument : "ypos" "o"
+	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "obj_blood"
 	/// @DnDSaveInfo : "objectid" "obj_blood"
 	instance_create_layer(e, o, "Instances", obj_blood);

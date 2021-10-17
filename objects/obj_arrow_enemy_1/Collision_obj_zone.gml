@@ -21,12 +21,12 @@ if(arrow == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 51C975B1
 	/// @DnDParent : 62A1C4B9
-	/// @DnDArgument : "xpos" "obj_test.x"
-	/// @DnDArgument : "ypos" "obj_test.y"
+	/// @DnDArgument : "xpos" "obj_arrow_enemy_1.x"
+	/// @DnDArgument : "ypos" "obj_arrow_enemy_1.y"
 	/// @DnDArgument : "objectid" "obj_arrow"
 	/// @DnDArgument : "layer" ""enemy""
 	/// @DnDSaveInfo : "objectid" "obj_arrow"
-	instance_create_layer(obj_test.x, obj_test.y, "enemy", obj_arrow);
+	instance_create_layer(obj_arrow_enemy_1.x, obj_arrow_enemy_1.y, "enemy", obj_arrow);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
