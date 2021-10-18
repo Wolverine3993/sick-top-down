@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 49F02692
+/// @DnDArgument : "value" "5"
+/// @DnDArgument : "var" "arrows"
+global.arrows = 5;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 2291D827
 /// @DnDArgument : "var" "SCore"
 global.SCore = 0;
