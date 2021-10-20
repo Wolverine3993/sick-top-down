@@ -54,6 +54,18 @@ if(global.Room_state == 0)
 	/// @DnDArgument : "steps" "121"
 	alarm_set(0, 121);
 
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 25773A59
+	/// @DnDApplyTo : {obj_arrow_enemy_1}
+	/// @DnDParent : 41FE74FB
+	/// @DnDArgument : "x" "280"
+	/// @DnDArgument : "y" "196"
+	with(obj_arrow_enemy_1) {
+	x = 280;
+	y = 196;
+	}
+
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 76C308D7

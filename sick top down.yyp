@@ -45,6 +45,7 @@
     {"id":{"name":"obj_Quit","path":"objects/obj_Quit/obj_Quit.yy",},"order":1,},
     {"id":{"name":"obj_player_menu","path":"objects/obj_player_menu/obj_player_menu.yy",},"order":2,},
     {"id":{"name":"obj_collision_right_1","path":"objects/obj_collision_right_1/obj_collision_right_1.yy",},"order":0,},
+    {"id":{"name":"obj_player_arrow","path":"objects/obj_player_arrow/obj_player_arrow.yy",},"order":16,},
     {"id":{"name":"obj_zone","path":"objects/obj_zone/obj_zone.yy",},"order":14,},
     {"id":{"name":"obj_arrows","path":"objects/obj_arrows/obj_arrows.yy",},"order":8,},
     {"id":{"name":"Menu_toggle","path":"scripts/Menu_toggle/Menu_toggle.yy",},"order":4,},

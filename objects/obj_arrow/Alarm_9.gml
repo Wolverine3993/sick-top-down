@@ -13,9 +13,20 @@ y = global.obj_player_y1;
 /// @DnDVersion : 1
 /// @DnDHash : 6ABE6A5B
 /// @DnDApplyTo : {obj_arrow_enemy_1}
+/// @DnDArgument : "x" "280"
+/// @DnDArgument : "y" "196"
+with(obj_arrow_enemy_1) {
+x = 280;
+y = 196;
+}
+
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDVersion : 1
+/// @DnDHash : 31D88891
+/// @DnDApplyTo : {obj_enemy_1}
 /// @DnDArgument : "x" "xstart"
 /// @DnDArgument : "y" "ystart"
-with(obj_arrow_enemy_1) {
+with(obj_enemy_1) {
 x = xstart;
 y = ystart;
 }
