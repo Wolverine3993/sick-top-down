@@ -25,9 +25,10 @@ y = 196;
 /// @DnDHash : 31D88891
 /// @DnDApplyTo : {obj_enemy_1}
 /// @DnDArgument : "x" "xstart"
+/// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "ystart"
 with(obj_enemy_1) {
-x = xstart;
+x += xstart;
 y = ystart;
 }
 

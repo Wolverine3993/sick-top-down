@@ -6,6 +6,12 @@ no_shooty = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 169BF4ED
+/// @DnDArgument : "var" "enemy_sword_swing"
+global.enemy_sword_swing = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 49F02692
 /// @DnDArgument : "value" "5"
 /// @DnDArgument : "var" "arrows"

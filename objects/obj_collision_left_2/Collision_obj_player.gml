@@ -62,3 +62,9 @@ global.obj_player_y1 = obj_player.y;
 /// @DnDArgument : "layer" ""enemy""
 /// @DnDSaveInfo : "objectid" "obj_enemy_2"
 instance_create_layer(606, 125, "enemy", obj_enemy_2);
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 1B6F7A26
+/// @DnDApplyTo : {obj_enemy_sus_1}
+with(obj_enemy_sus_1) instance_destroy();

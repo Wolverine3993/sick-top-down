@@ -55,17 +55,17 @@ global.obj_player_y1 = obj_player.y;
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 6915D456
+/// @DnDHash : 1F5167A9
 /// @DnDArgument : "xpos" "100"
 /// @DnDArgument : "ypos" "268"
-/// @DnDArgument : "objectid" "obj_enemy_3"
+/// @DnDArgument : "objectid" "obj_enemy_sus_1"
 /// @DnDArgument : "layer" ""enemy""
-/// @DnDSaveInfo : "objectid" "obj_enemy_3"
-instance_create_layer(100, 268, "enemy", obj_enemy_3);
+/// @DnDSaveInfo : "objectid" "obj_enemy_sus_1"
+instance_create_layer(100, 268, "enemy", obj_enemy_sus_1);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 12E28CCC
+/// @DnDHash : 26B44E72
 /// @DnDArgument : "xpos" "32"
 /// @DnDArgument : "ypos" "400"
 /// @DnDArgument : "objectid" "obj_enemy_3"
@@ -75,7 +75,7 @@ instance_create_layer(32, 400, "enemy", obj_enemy_3);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 376414CE
+/// @DnDHash : 67B5D7D6
 /// @DnDArgument : "xpos" "56"
 /// @DnDArgument : "ypos" "400"
 /// @DnDArgument : "objectid" "obj_enemy_3"

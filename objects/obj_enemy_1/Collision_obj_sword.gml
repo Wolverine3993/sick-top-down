@@ -23,4 +23,5 @@ visible = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 51F92EE5
 /// @DnDArgument : "steps" "121"
-alarm_set(0, 121);
+/// @DnDArgument : "alarm" "3"
+alarm_set(3, 121);

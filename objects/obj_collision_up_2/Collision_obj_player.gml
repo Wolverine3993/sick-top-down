@@ -1,16 +1,5 @@
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
-/// @DnDHash : 13680BBF
-/// @DnDApplyTo : {obj_view}
-/// @DnDArgument : "x" "obj_view.x"
-/// @DnDArgument : "y" "obj_view.y - 240"
-with(obj_view) {
-x = obj_view.x;
-y = obj_view.y - 240;
-}
-
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-/// @DnDVersion : 1
 /// @DnDHash : 05FF5B49
 /// @DnDApplyTo : {obj_player}
 /// @DnDArgument : "x" "obj_player.x"

@@ -58,3 +58,9 @@ global.obj_player_y1 = obj_player.y;
 /// @DnDHash : 1E1464B0
 /// @DnDApplyTo : {obj_enemy_3}
 with(obj_enemy_3) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 23F11712
+/// @DnDApplyTo : {obj_enemy_sus_1}
+with(obj_enemy_sus_1) instance_destroy();
