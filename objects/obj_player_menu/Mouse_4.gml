@@ -9,10 +9,10 @@ if(skin == 0)
 	/// @DnDHash : 67ED96D6
 	/// @DnDApplyTo : {obj_player}
 	/// @DnDParent : 71B38F5A
-	/// @DnDArgument : "spriteind" "spr_player_skin"
-	/// @DnDSaveInfo : "spriteind" "spr_player_skin"
+	/// @DnDArgument : "spriteind" "spr_amogus"
+	/// @DnDSaveInfo : "spriteind" "spr_amogus"
 	with(obj_player) {
-	sprite_index = spr_player_skin;
+	sprite_index = spr_amogus;
 	image_index = 0;
 	}
 

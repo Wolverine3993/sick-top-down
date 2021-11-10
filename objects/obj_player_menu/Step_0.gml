@@ -23,8 +23,8 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 7CF721DA
 	/// @DnDParent : 4EF5F95A
-	/// @DnDArgument : "spriteind" "spr_player_skin"
-	/// @DnDSaveInfo : "spriteind" "spr_player_skin"
-	sprite_index = spr_player_skin;
+	/// @DnDArgument : "spriteind" "spr_amogus"
+	/// @DnDSaveInfo : "spriteind" "spr_amogus"
+	sprite_index = spr_amogus;
 	image_index = 0;
 }

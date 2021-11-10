@@ -60,6 +60,14 @@ function get_input()
 			/// @DnDParent : 11E60472
 			/// @DnDArgument : "speed" "2"
 			image_speed = 2;
+		
+			/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+			/// @DnDVersion : 1
+			/// @DnDHash : 009A8F79
+			/// @DnDParent : 11E60472
+			/// @DnDArgument : "xscale" "-1"
+			image_xscale = -1;
+			image_yscale = 1;
 		}
 	
 		/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
@@ -111,6 +119,13 @@ function get_input()
 			/// @DnDParent : 14F45710
 			/// @DnDArgument : "speed" "2"
 			image_speed = 2;
+		
+			/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+			/// @DnDVersion : 1
+			/// @DnDHash : 6445BE6A
+			/// @DnDParent : 14F45710
+			image_xscale = 1;
+			image_yscale = 1;
 		}
 	}
 }
