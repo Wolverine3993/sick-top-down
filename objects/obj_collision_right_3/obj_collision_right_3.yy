@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Room5",
-    "path": "folders/Objects/Room Collision/Room5.yy",
+    "name": "Room4",
+    "path": "folders/Objects/Room Collision/Room4.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_collision_right_3",

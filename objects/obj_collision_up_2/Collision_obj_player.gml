@@ -41,3 +41,9 @@ global.obj_player_y1 = obj_player.y;
 /// @DnDArgument : "var_1" "global.obj_view_y1"
 global.obj_view_x1 = obj_view.x;
 global.obj_view_y1 = obj_view.y - 240;
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 3175232E
+/// @DnDApplyTo : {obj_arrow_enemy_1}
+with(obj_arrow_enemy_1) instance_destroy();

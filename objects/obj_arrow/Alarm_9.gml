@@ -23,12 +23,11 @@ y = 196;
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 31D88891
-/// @DnDApplyTo : {obj_enemy_1}
+/// @DnDApplyTo : {obj_arrow_enemy_1}
 /// @DnDArgument : "x" "xstart"
-/// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "ystart"
-with(obj_enemy_1) {
-x += xstart;
+with(obj_arrow_enemy_1) {
+x = xstart;
 y = ystart;
 }
 

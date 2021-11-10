@@ -13,10 +13,10 @@ y = obj_view.y;
 /// @DnDVersion : 1
 /// @DnDHash : 589945E4
 /// @DnDApplyTo : {obj_player}
-/// @DnDArgument : "x" "obj_collision_right_3.x + 40"
+/// @DnDArgument : "x" "obj_collision_right_4.x + 40"
 /// @DnDArgument : "y" "obj_player.y"
 with(obj_player) {
-x = obj_collision_right_3.x + 40;
+x = obj_collision_right_4.x + 40;
 y = obj_player.y;
 }
 

@@ -17,3 +17,10 @@ image_angle = point_direction(x,y,obj_player.x,obj_player.y);
 /// @DnDHash : 2F80BD44
 /// @DnDArgument : "speed" "1"
 speed = 1;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 7C163669
+/// @DnDArgument : "steps" "240"
+/// @DnDArgument : "alarm" "11"
+alarm_set(11, 240);
