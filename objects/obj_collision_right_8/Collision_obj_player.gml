@@ -63,6 +63,14 @@ global.obj_player_y1 = obj_player.y;
 /// @DnDSaveInfo : "objectid" "obj_boss"
 instance_create_layer(1380, 590, "enemy", obj_boss);
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 400EB0EB
+/// @DnDArgument : "objectid" "obj_boss_health"
+/// @DnDArgument : "layer" ""score""
+/// @DnDSaveInfo : "objectid" "obj_boss_health"
+instance_create_layer(0, 0, "score", obj_boss_health);
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 661D095B

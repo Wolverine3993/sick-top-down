@@ -61,3 +61,9 @@ global.Room_state = 1;
 /// @DnDArgument : "var_1" "obj_player_y1"
 global.obj_player_x1 = xstart;
 global.obj_player_y1 = ystart;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 21B18BA6
+/// @DnDArgument : "var" "swordswing"
+global.swordswing = 0;

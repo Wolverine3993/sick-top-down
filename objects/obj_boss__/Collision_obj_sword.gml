@@ -18,12 +18,11 @@ x = 200;
 y = 420;
 }
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 64E996FD
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "hit"
-hit = 1;
+/// @DnDHash : 102B3952
+/// @DnDArgument : "var" "global.swordswing"
+global.swordswing = 0;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
@@ -37,35 +36,9 @@ alarm_set(8, 30);
 /// @DnDArgument : "expr" "helth == 0"
 if(helth == 0)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 6DFE2141
+	/// @DnDHash : 6B0A2247
 	/// @DnDParent : 7F0B8CED
-	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "var" "ded"
-	ded = 1;
-
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 45C29BC0
-	/// @DnDParent : 7F0B8CED
-	/// @DnDArgument : "x" "69"
-	/// @DnDArgument : "y" "420"
-	x = 69;
-	y = 420;
-
-	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
-	/// @DnDVersion : 1
-	/// @DnDHash : 554D6958
-	/// @DnDParent : 7F0B8CED
-	/// @DnDArgument : "instvar" "6"
-	visible = 0;
-
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
-	/// @DnDVersion : 1
-	/// @DnDHash : 39105388
-	/// @DnDParent : 7F0B8CED
-	/// @DnDArgument : "steps" "121"
-	/// @DnDArgument : "alarm" "3"
-	alarm_set(3, 121);
+	instance_destroy();
 }

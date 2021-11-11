@@ -1,7 +1,6 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-/// @DnDVersion : 1
-/// @DnDHash : 53EF8626
-/// @DnDArgument : "x" "obj_boss.x"
-/// @DnDArgument : "y" "yprevious"
-x = obj_boss.x;
-y = yprevious;
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 6ADAC950
+/// @DnDArgument : "script" "eaweawe"
+/// @DnDSaveInfo : "script" "eaweawe"
+script_execute(eaweawe);

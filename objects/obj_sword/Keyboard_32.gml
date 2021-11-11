@@ -1,27 +1,13 @@
-/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 5054FAA6
-/// @DnDArgument : "expr" "global.swordswing == 0 and global.noswing == 0"
+/// @DnDHash : 6874BCB1
+/// @DnDArgument : "code" "if(global.swordswing == 0 and global.noswing == 0)$(13_10){$(13_10)	sword();$(13_10)$(13_10)	if(global.swordswing == 1)$(13_10)	{$(13_10)		alarm_set(0, 30);$(13_10)	}$(13_10)}"
 if(global.swordswing == 0 and global.noswing == 0)
 {
-	/// @DnDAction : YoYo Games.Common.Function_Call
-	/// @DnDVersion : 1
-	/// @DnDHash : 7BFD3980
-	/// @DnDParent : 5054FAA6
-	/// @DnDArgument : "function" "sword"
 	sword();
 
-	/// @DnDAction : YoYo Games.Common.If_Expression
-	/// @DnDVersion : 1
-	/// @DnDHash : 11DD3740
-	/// @DnDParent : 5054FAA6
-	/// @DnDArgument : "expr" "global.swordswing == 1"
 	if(global.swordswing == 1)
 	{
-		/// @DnDAction : YoYo Games.Instances.Set_Alarm
-		/// @DnDVersion : 1
-		/// @DnDHash : 70D288B1
-		/// @DnDParent : 11DD3740
 		alarm_set(0, 30);
 	}
 }
