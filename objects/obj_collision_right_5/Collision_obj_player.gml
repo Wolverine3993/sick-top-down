@@ -52,3 +52,23 @@ global.obj_view_y1 = obj_view.y;
 /// @DnDArgument : "var_1" "global.obj_player_y1"
 global.obj_player_x1 = obj_player.x;
 global.obj_player_y1 = obj_player.y;
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 2796BB36
+/// @DnDArgument : "xpos" "996"
+/// @DnDArgument : "ypos" "304"
+/// @DnDArgument : "objectid" "obj_globin_1"
+/// @DnDArgument : "layer" ""enemy""
+/// @DnDSaveInfo : "objectid" "obj_globin_1"
+instance_create_layer(996, 304, "enemy", obj_globin_1);
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 5364A8D9
+/// @DnDArgument : "xpos" "996"
+/// @DnDArgument : "ypos" "384"
+/// @DnDArgument : "objectid" "obj_globin_2"
+/// @DnDArgument : "layer" ""enemy""
+/// @DnDSaveInfo : "objectid" "obj_globin_2"
+instance_create_layer(996, 384, "enemy", obj_globin_2);

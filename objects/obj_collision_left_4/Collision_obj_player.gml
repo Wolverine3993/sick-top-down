@@ -58,3 +58,13 @@ global.obj_player_y1 = obj_player.y;
 /// @DnDHash : 238A4182
 /// @DnDApplyTo : {obj_arrow_enemy_1}
 with(obj_arrow_enemy_1) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 64FC7D4B
+/// @DnDArgument : "xpos" "281"
+/// @DnDArgument : "ypos" "674"
+/// @DnDArgument : "objectid" "obj_globin_1"
+/// @DnDArgument : "layer" ""enemy""
+/// @DnDSaveInfo : "objectid" "obj_globin_1"
+instance_create_layer(281, 674, "enemy", obj_globin_1);

@@ -25,3 +25,10 @@ with(obj_enemy_sus_1) {
 x = xstart;
 y = ystart;
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4DE527AE
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "var" "helth"
+helth = 3;

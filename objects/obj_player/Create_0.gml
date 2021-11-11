@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 1EEB9B92
+/// @DnDArgument : "var" "noswing"
+global.noswing = 0;
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 0E9B1A8B

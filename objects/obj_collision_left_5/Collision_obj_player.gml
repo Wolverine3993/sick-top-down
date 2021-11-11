@@ -52,3 +52,15 @@ global.obj_view_y1 = obj_view.y;
 /// @DnDArgument : "var_1" "global.obj_player_y1"
 global.obj_player_x1 = obj_player.x;
 global.obj_player_y1 = obj_player.y;
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 54536ADD
+/// @DnDApplyTo : {obj_globin_1}
+with(obj_globin_1) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 7060F7E6
+/// @DnDApplyTo : {obj_globin_2}
+with(obj_globin_2) instance_destroy();

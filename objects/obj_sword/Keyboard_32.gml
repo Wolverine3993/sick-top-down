@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 5054FAA6
-/// @DnDArgument : "expr" "global.swordswing == 0"
-if(global.swordswing == 0)
+/// @DnDArgument : "expr" "global.swordswing == 0 and global.noswing == 0"
+if(global.swordswing == 0 and global.noswing == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Function_Call
 	/// @DnDVersion : 1
