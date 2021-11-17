@@ -71,6 +71,26 @@ instance_create_layer(1380, 590, "enemy", obj_boss);
 /// @DnDSaveInfo : "objectid" "obj_boss_health"
 instance_create_layer(0, 0, "score", obj_boss_health);
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 5D98B1C7
+/// @DnDArgument : "xpos" "1117"
+/// @DnDArgument : "ypos" "521"
+/// @DnDArgument : "objectid" "obj_missle"
+/// @DnDArgument : "layer" ""enemy""
+/// @DnDSaveInfo : "objectid" "obj_missle"
+instance_create_layer(1117, 521, "enemy", obj_missle);
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 1CA011DE
+/// @DnDArgument : "xpos" "1117"
+/// @DnDArgument : "ypos" "641"
+/// @DnDArgument : "objectid" "obj_missle67"
+/// @DnDArgument : "layer" ""enemy""
+/// @DnDSaveInfo : "objectid" "obj_missle67"
+instance_create_layer(1117, 641, "enemy", obj_missle67);
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 661D095B

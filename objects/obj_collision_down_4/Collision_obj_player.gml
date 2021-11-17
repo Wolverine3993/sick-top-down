@@ -56,8 +56,8 @@ global.obj_view_y1 = obj_view.y ;
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 351EC550
-/// @DnDApplyTo : {obj_globin_1}
-with(obj_globin_1) instance_destroy();
+/// @DnDApplyTo : {obj_enemy_sus_1}
+with(obj_enemy_sus_1) instance_destroy();
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

@@ -47,7 +47,7 @@ global.obj_view_y1 = obj_view.y - 240;
 /// @DnDHash : 083CB7A7
 /// @DnDArgument : "xpos" "540"
 /// @DnDArgument : "ypos" "620"
-/// @DnDArgument : "objectid" "obj_arrow_enemy_1"
+/// @DnDArgument : "objectid" "obj_enemy_sus_1"
 /// @DnDArgument : "layer" ""enemy""
-/// @DnDSaveInfo : "objectid" "obj_arrow_enemy_1"
-instance_create_layer(540, 620, "enemy", obj_arrow_enemy_1);
+/// @DnDSaveInfo : "objectid" "obj_enemy_sus_1"
+instance_create_layer(540, 620, "enemy", obj_enemy_sus_1);

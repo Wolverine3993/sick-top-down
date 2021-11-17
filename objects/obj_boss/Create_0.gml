@@ -36,6 +36,12 @@ directionn = 90;
 /// @DnDArgument : "var" "going"
 going = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 62D932C2
+/// @DnDArgument : "var" "no_shooty_bad_boi"
+no_shooty_bad_boi = 0;
+
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 09196D35

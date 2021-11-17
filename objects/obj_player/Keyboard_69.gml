@@ -12,6 +12,7 @@ if(no_shooty == 0 and global.arrows != 0)
 	/// @DnDArgument : "ypos" "obj_player.y"
 	/// @DnDArgument : "objectid" "obj_player_arrow"
 	/// @DnDArgument : "layer" ""enemy""
+	/// @DnDSaveInfo : "objectid" "obj_player_arrow"
 	instance_create_layer(obj_player.x, obj_player.y, "enemy", obj_player_arrow);
 
 	/// @DnDAction : YoYo Games.Common.Variable

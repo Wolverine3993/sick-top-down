@@ -23,9 +23,9 @@ draw_set_valign(fa_middle);
 /// @DnDHash : 35F186DE
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Gems left: ""
+/// @DnDArgument : "caption" ""GEMS LEFT: ""
 /// @DnDArgument : "var" "10 - global.SCore"
-draw_text(x + 0, y + 0, string("Gems left: ") + string(10 - global.SCore));
+draw_text(x + 0, y + 0, string("GEMS LEFT: ") + string(10 - global.SCore));
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
