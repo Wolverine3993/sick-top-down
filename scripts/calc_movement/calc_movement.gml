@@ -78,5 +78,13 @@ function calc_movement()
 		/// @DnDArgument : "value_relative" "1"
 		/// @DnDArgument : "instvar" "1"
 		y += _vmove;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0486D72F
+		/// @DnDParent : 6425A705
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "var" "moving"
+		moving = 1;
 	}
 }

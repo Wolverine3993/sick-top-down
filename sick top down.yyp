@@ -42,8 +42,10 @@
     {"id":{"name":"obj_blood","path":"objects/obj_blood/obj_blood.yy",},"order":10,},
     {"id":{"name":"obj_collision_up_1","path":"objects/obj_collision_up_1/obj_collision_up_1.yy",},"order":0,},
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},"order":6,},
+    {"id":{"name":"spr_slime","path":"sprites/spr_slime/spr_slime.yy",},"order":35,},
     {"id":{"name":"obj_easy","path":"objects/obj_easy/obj_easy.yy",},"order":9,},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},"order":6,},
+    {"id":{"name":"obj_sussy","path":"objects/obj_sussy/obj_sussy.yy",},"order":31,},
     {"id":{"name":"spr_amazing_design","path":"sprites/spr_amazing_design/spr_amazing_design.yy",},"order":17,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":0,},
     {"id":{"name":"obj_door_1_1","path":"objects/obj_door_1_1/obj_door_1_1.yy",},"order":3,},
@@ -176,6 +178,7 @@
     {"folderPath":"folders/Objects/Room Collision/Room9.yy","order":11,"resourceVersion":"1.0","name":"Room9","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Room Collision/Room12.yy","order":12,"resourceVersion":"1.0","name":"Room12","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Room Collision/RoomDoesn'tExist.yy","order":13,"resourceVersion":"1.0","name":"RoomDoesn'tExist","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/player.yy","order":37,"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

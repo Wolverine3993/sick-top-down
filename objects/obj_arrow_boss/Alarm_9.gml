@@ -31,3 +31,9 @@ helth = 25;
 /// @DnDHash : 77BE7937
 /// @DnDApplyTo : {obj_slime}
 with(obj_slime) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 59CAAF45
+/// @DnDApplyTo : {obj_arrow_boss}
+with(obj_arrow_boss) instance_destroy();

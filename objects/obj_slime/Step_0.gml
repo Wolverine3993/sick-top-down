@@ -1,5 +1,33 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
+/// @DnDHash : 02BA1310
+/// @DnDArgument : "expr" "obj_player.x <= obj_slime.x"
+if(obj_player.x <= obj_slime.x)
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 3C3FBD59
+	/// @DnDParent : 02BA1310
+	/// @DnDArgument : "xscale" "-1"
+	image_xscale = -1;
+	image_yscale = 1;
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 49D3E49F
+else
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 06CC8323
+	/// @DnDParent : 49D3E49F
+	image_xscale = 1;
+	image_yscale = 1;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
 /// @DnDHash : 30E4B0BE
 /// @DnDArgument : "expr" "hit == 0"
 if(hit == 0)

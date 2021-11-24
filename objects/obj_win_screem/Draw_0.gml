@@ -19,13 +19,21 @@ draw_text(obj_win_screem.x, obj_win_screem.y, string("The End of This 10/10 Game
 /// @DnDHash : 56E08B54
 /// @DnDArgument : "x" "obj_win_screem.x"
 /// @DnDArgument : "y" "obj_win_screem.y + 20"
-/// @DnDArgument : "caption" ""Now Bow Down to the Master Developer,""
-draw_text(obj_win_screem.x, obj_win_screem.y + 20, string("Now Bow Down to the Master Developer,") + "");
+/// @DnDArgument : "caption" ""Now Bow Down to""
+draw_text(obj_win_screem.x, obj_win_screem.y + 20, string("Now Bow Down to") + "");
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 402FCC19
+/// @DnDArgument : "x" "obj_win_screem.x"
+/// @DnDArgument : "y" "obj_win_screem.y + 40"
+/// @DnDArgument : "caption" ""the Master Developer,""
+draw_text(obj_win_screem.x, obj_win_screem.y + 40, string("the Master Developer,") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 049DDA2E
 /// @DnDArgument : "x" "obj_win_screem.x"
-/// @DnDArgument : "y" "obj_win_screem.y + 40"
+/// @DnDArgument : "y" "obj_win_screem.y + 60"
 /// @DnDArgument : "caption" ""Oscar Koopman""
-draw_text(obj_win_screem.x, obj_win_screem.y + 40, string("Oscar Koopman") + "");
+draw_text(obj_win_screem.x, obj_win_screem.y + 60, string("Oscar Koopman") + "");

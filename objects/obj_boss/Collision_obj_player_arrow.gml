@@ -81,22 +81,22 @@ if(helth == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 63109C77
 	/// @DnDParent : 0EBA7720
-	/// @DnDArgument : "xpos" "1380"
+	/// @DnDArgument : "xpos" "1120"
 	/// @DnDArgument : "ypos" "600"
 	/// @DnDArgument : "objectid" "obj_portal"
 	/// @DnDSaveInfo : "objectid" "obj_portal"
-	instance_create_layer(1380, 600, "Instances", obj_portal);
+	instance_create_layer(1120, 600, "Instances", obj_portal);
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 13293DF6
 	/// @DnDApplyTo : {obj_portal}
 	/// @DnDParent : 0EBA7720
-	/// @DnDArgument : "xscale" "0.2"
-	/// @DnDArgument : "yscale" "0.2"
+	/// @DnDArgument : "xscale" "-0.2"
+	/// @DnDArgument : "yscale" "-0.2"
 	with(obj_portal) {
-	image_xscale = 0.2;
-	image_yscale = 0.2;
+	image_xscale = -0.2;
+	image_yscale = -0.2;
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
